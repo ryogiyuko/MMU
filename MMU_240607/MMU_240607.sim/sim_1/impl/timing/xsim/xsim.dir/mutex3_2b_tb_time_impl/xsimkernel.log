@@ -1,0 +1,7 @@
+Running: xsim.dir/mutex3_2b_tb_time_impl/xsimk.exe -simmode gui -wdb mutex3_2b_tb_time_impl.wdb -simrunnum 0 -socket 53555
+Design successfully loaded
+Design Loading Memory Usage: 6932 KB (Peak: 6932 KB)
+Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 8000 KB (Peak: 8000 KB)
+Simulation CPU Usage: 0 ms

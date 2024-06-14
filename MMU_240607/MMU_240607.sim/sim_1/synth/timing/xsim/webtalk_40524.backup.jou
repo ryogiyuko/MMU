@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Jun  8 19:12:02 2024
+# Process ID: 40524
+# Current directory: D:/Xilinx/Verilog/MMU_240607/MMU_240607.sim/sim_1/synth/timing/xsim
+# Command line: wbtcv.exe -mode batch -source D:/Xilinx/Verilog/MMU_240607/MMU_240607.sim/sim_1/synth/timing/xsim/xsim.dir/mutex2_33b_tb_time_synth/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/Xilinx/Verilog/MMU_240607/MMU_240607.sim/sim_1/synth/timing/xsim/webtalk.log
+# Journal file: D:/Xilinx/Verilog/MMU_240607/MMU_240607.sim/sim_1/synth/timing/xsim\webtalk.jou
+#-----------------------------------------------------------
+source D:/Xilinx/Verilog/MMU_240607/MMU_240607.sim/sim_1/synth/timing/xsim/xsim.dir/mutex2_33b_tb_time_synth/webtalk/xsim_webtalk.tcl -notrace

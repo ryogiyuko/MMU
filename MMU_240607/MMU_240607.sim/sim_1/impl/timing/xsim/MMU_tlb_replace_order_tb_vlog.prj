@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"MMU_tlb_replace_order_tb_time_impl.v" \
+"../../../../../MMU_240607.srcs/sim_1/new/MMU_tlb_replace_order_tb.v" \
+
+# Do not sort compile order
+nosort

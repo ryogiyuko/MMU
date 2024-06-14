@@ -1,0 +1,26 @@
+
+
+module TLB(
+    input i_rst,
+    
+    input i_drive_tlb,i_sv32Drive,i_freeNextPmp,i_freeNextFault,i_freeNextSv32,
+    output o_free_tlb,o_sv32Free,o_driveNextPmp,o_driveNextFault,o_driveNextSv32,
+    
+    //顶层输入
+    input [31:0] i_virtualAddr_32,// satpAsid_9,satpPnn_22
+    input [1:0] i_type_2,
+    input [8:0] i_satpAsid_9,
+    input [21:0] i_satp_ppn_22,
+    input [1:0] i_mode_2, //特权级mode,00U,01S,11M;
+    input i_mstatus_mxr,i_mstatus_sum,
+    
+    //pmp
+    output [33:0] o_physicalAddr_34,
+    output forkSRAM_1,// 0取页表到SV32,1到取指访存
+    
+    //sv32
+    input [31:0] i_tlbEntry_32,// pte_32 :ppn,表项标志位10位,DAGUXWRV 
+    
+    // page fault
+    output [1:0] o_pageFault_2//高位有效，出现page fault
+    );

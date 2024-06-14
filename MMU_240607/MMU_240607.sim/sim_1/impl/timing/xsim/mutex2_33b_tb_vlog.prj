@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"mutex2_33b_tb_time_impl.v" \
+"../../../../../MMU_240607.srcs/sources_1/new/cFifo1.v" \
+"../../../../../MMU_240607.srcs/sources_1/new/cMutexMerge2_33b.v" \
+"../../../../../MMU_240607.srcs/sources_1/new/contTap.v" \
+"../../../../../MMU_240607.srcs/sources_1/new/delay1U.v" \
+"../../../../../MMU_240607.srcs/sources_1/new/delay1Unit.v" \
+"../../../../../MMU_240607.srcs/sources_1/new/receiver.v" \
+"../../../../../MMU_240607.srcs/sources_1/new/relay.v" \
+"../../../../../MMU_240607.srcs/sources_1/new/sender.v" \
+"../../../../../MMU_240607.srcs/sim_1/new/mutex2_33b_tb.v" \
+
+# Do not sort compile order
+nosort

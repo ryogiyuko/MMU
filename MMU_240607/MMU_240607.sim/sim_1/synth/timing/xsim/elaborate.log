@@ -1,0 +1,63 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto a295a8f5803b4b61b40a012f454e3299 --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot cMutexMerge3_1b_tb_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.cMutexMerge3_1b_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+INFO: [XSIM 43-3451] SDF backannotation process started with SDF file "cMutexMerge3_1b_tb_time_synth.sdf", for root module "cMutexMerge3_1b_tb/u_cMutexMerge3_1b".
+INFO: [XSIM 43-3452] SDF backannotation was successful for SDF file "cMutexMerge3_1b_tb_time_synth.sdf", for root module "cMutexMerge3_1b_tb/u_cMutexMerge3_1b".
+Time Resolution for simulation is 1ps
+Compiling module simprims_ver.x_lut1_mux2
+Compiling module simprims_ver.LUT1
+Compiling module simprims_ver.x_lut2_mux4
+Compiling module simprims_ver.LUT2
+Compiling module simprims_ver.FDCE_default
+Compiling module xil_defaultlib.delay1Unit__6
+Compiling module xil_defaultlib.delay1Unit__5
+Compiling module xil_defaultlib.delay2Unit__1
+Compiling module xil_defaultlib.delay1Unit__4
+Compiling module xil_defaultlib.delay1Unit
+Compiling module xil_defaultlib.delay2Unit
+Compiling module simprims_ver.x_lut3_mux8
+Compiling module simprims_ver.LUT3
+Compiling module xil_defaultlib.delay1Unit__1
+Compiling module xil_defaultlib.delay1U__1
+Compiling module simprims_ver.FDPE(INIT=1'b0)
+Compiling module xil_defaultlib.receiver__1
+Compiling module xil_defaultlib.relay__1
+Compiling module xil_defaultlib.sender_3
+Compiling module xil_defaultlib.cFifo1
+Compiling module xil_defaultlib.contTap__1
+Compiling module simprims_ver.IBUFCTRL_default
+Compiling module simprims_ver.INBUF_default
+Compiling module xil_defaultlib.IBUF_UNIQ_BASE_
+Compiling module xil_defaultlib.IBUF_HD589
+Compiling module xil_defaultlib.IBUF_HD590
+Compiling module simprims_ver.BUFGCE(CE_TYPE="ASYNC",SIM_DEVIC...
+Compiling module xil_defaultlib.IBUF_HD591
+Compiling module xil_defaultlib.IBUF_HD592
+Compiling module xil_defaultlib.IBUF_HD593
+Compiling module xil_defaultlib.IBUF_HD594
+Compiling module simprims_ver.OBUF
+Compiling module simprims_ver.LUT6
+Compiling module xil_defaultlib.IBUF_HD595
+Compiling module xil_defaultlib.delay1Unit__2
+Compiling module xil_defaultlib.delay1U__2
+Compiling module xil_defaultlib.receiver__2
+Compiling module xil_defaultlib.relay__2
+Compiling module xil_defaultlib.sender_2
+Compiling module xil_defaultlib.cFifo1_0
+Compiling module xil_defaultlib.contTap__2
+Compiling module xil_defaultlib.delay1Unit__3
+Compiling module xil_defaultlib.delay1U
+Compiling module xil_defaultlib.receiver
+Compiling module xil_defaultlib.relay
+Compiling module xil_defaultlib.sender
+Compiling module xil_defaultlib.cFifo1_1
+Compiling module xil_defaultlib.contTap
+Compiling module xil_defaultlib.cMutexMerge3_1b
+Compiling module xil_defaultlib.cMutexMerge3_1b_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cMutexMerge3_1b_tb_time_synth
